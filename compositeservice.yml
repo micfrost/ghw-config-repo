@@ -1,10 +1,8 @@
 server:
   port: 8083
 
-greeting:
-  service:
+greetingservice:
     url: http://localhost:8081
 
-service:
-  name:
+nameservice:
     url: http://localhost:8082
